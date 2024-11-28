@@ -1,6 +1,6 @@
 # Gemini Filesystem Polyfill for Browser
 
-Loading files to Gemini API from the browser is not possible as this feature is in the nop file `server.js`, which expects to run in a server environment (node).
+Loading files to Gemini API from the browser is not possible as this feature is in the package file `server.js`, which expects to run in a server environment (node).
 
 This project provides a simple polyfill to enable the Google Generative AI (GenAI) Node.js SDK's file handling functionality within a web browser environment. It uses FileReader to load files into memory, simulating the `fs.readFileSync` behavior required by the GenAI SDK.
 
