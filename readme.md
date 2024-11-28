@@ -6,7 +6,7 @@ This project provides a simple polyfill to enable the Google Generative AI (GenA
 
 ### Usage:
 
-1. Include googleai.js (not modified, just a copy of original from google) server-not.js (modified!) in your HTML.
+1. Include `googleai.js` (not modified, just a copy of original from google) `server-not.js` (modified!) in your HTML.
 2. Use `bindGeminiFile(file, fileName)` to load a file into `window.GeminiFiles`.
 3. Use the filename as `filePath` when calling `GoogleAIFileManager.uploadFile`.
 
