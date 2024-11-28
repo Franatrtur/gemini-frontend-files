@@ -19,7 +19,7 @@ const file = document.getElementById('fileInput').files[0];
 bindGeminiFile(file, 'my_file.txt');
 
 // ... later, in your GenAI code ...
-GoogleAIFileManager.uploadFile('my_file.txt', {/*metadata as normal*/});
+myGoogleAIFileManager.uploadFile('my_file.txt', {/*metadata as normal*/});
 ```
 
 ### Key Features:
